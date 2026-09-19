@@ -1,5 +1,5 @@
 public class HelloWorldWriter {
-    static void main() {
+    public void writeHelloWorld() {
         System.out.println("Hello World!");
     }
 }
