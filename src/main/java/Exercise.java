@@ -1,4 +1,10 @@
 public class Exercise {
+    static void main(String[] args) {
+        Exercise exercise = new Exercise();
+        int year = exercise.timeJump();
+        System.out.println("Target Year: " + year);
+    }
+
     public int timeJump() {
         int initialYear = 1985;
 
@@ -23,4 +29,11 @@ public class Exercise {
         text = text.trim();
         return text;
     }
+
+    public String replaceText(String originalText, String target, String replacement) {
+        // TODO: return a string that replaces all the copies of the target text
+        // with the replacement text in originalText.
+        return originalText.replace(target, replacement);
+    }
+
 }
